@@ -71,3 +71,6 @@ Validation completed for v2: MinGW Release DLL/test builds, exact executable/has
 The Windows `hook_harness.exe` was compiled with `-DTS3_BUILD_TESTS=ON`, but **could not be run in this session**: the sandbox prevents Wine's socket bind (`Operation not permitted`). On Windows, run it from the build directory alongside `dinput8.dll`; on Linux, use Wine outside that restricted session. It tests patch relays, native fallbacks, reticle integration, physical-stick arbitration, shared-page protection restoration, and DLL forwarding. It creates a temporary focus window. This is a fixture, not an in-game test.
 
 **In-game feel and Windows hook execution still need verification.** See [the analysis notes](docs/ANALYSIS.md) for the disassembly evidence and limits.
+
+## AI Usage
+Yes, this mod is entirely cuckcoded by GPT-6-Astra
