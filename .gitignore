@@ -1,0 +1,7 @@
+/build*/
+/dist/
+*.zip
+*.log
+/analysis/
+/backups/
+__pycache__/
